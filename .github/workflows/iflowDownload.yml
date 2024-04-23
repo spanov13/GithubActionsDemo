@@ -9,4 +9,4 @@ jobs:
         uses: SAP/project-piper-action@main
         with:
           step-name: integrationArtifactDownload
-          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId HelloWorld --integrationFlowVersion 1.0.1 --downloadPath ./backup
+          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId HelloWorld --integrationFlowVersion 1.0.1 --downloadPath './backup'

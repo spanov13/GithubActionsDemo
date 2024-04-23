@@ -12,4 +12,4 @@ jobs:
           flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} 
                  --downloadPath 'http://github.com/spanov13/GithubActionsDemo'
                  --integrationFlowId HelloWorld
-                 --integrationFlowVersion '1.0.1'
+                 --integrationFlowVersion 1.0.1

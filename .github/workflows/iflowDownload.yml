@@ -1,0 +1,15 @@
+name: SAP Cloud Integration Download IFlow Test
+on:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: integrationArtifactDownload
+        uses: SAP/project-piper-action@main
+        with:
+          step-name: integrationArtifactDownload
+          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} 
+                 --downloadPath 'GithubActionsDemo/main'
+                 --integrationFlowId HelloWorld
+                 --integrationFlowVersion '1.0.1'

@@ -1,0 +1,6 @@
+steps:
+  integrationArtifactDownload:
+    cpiApiServiceKeyCredentialsId: ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }}
+    integrationFlowId: HelloWorld
+    integrationFlowVersion: 1.0.1
+    downloadPath: ./iflows

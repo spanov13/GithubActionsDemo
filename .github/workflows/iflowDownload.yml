@@ -10,6 +10,6 @@ jobs:
         with:
           step-name: integrationArtifactDownload
           flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} 
-                 --downloadPath 'GithubActionsDemo/main'
+                 --downloadPath 'GithubActionsDemo/backup'
                  --integrationFlowId HelloWorld
                  --integrationFlowVersion '1.0.1'
